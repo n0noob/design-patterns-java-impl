@@ -1,0 +1,6 @@
+Use cases:
+	1. When the underlying factories undergo frequent changes we would require abstraction which this pattern provides.
+	2. Use it when the system consists of multiple families of objects, and these families are designed to be used together
+	3. We need a run-time value to construct a particular dependency.
+PitFalls:
+	1. Increases complexity of the system.
