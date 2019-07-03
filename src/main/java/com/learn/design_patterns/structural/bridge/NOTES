@@ -1,0 +1,4 @@
+Use Cases:
+	1. Decouple an abstraction from its implementation so that the two can vary independently.
+	2. This pattern involves an interface which acts as a bridge which makes the functionality of concrete classes independent from interface implementer classes.
+	
