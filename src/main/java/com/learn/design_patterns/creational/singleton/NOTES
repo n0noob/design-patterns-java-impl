@@ -1,0 +1,10 @@
+Use Cases:
+	1. A singleton should be used when managing access to a resource which is shared by the entire application, and it would be destructive to potentially have multiple instances of the same class.
+	2. Ensure a class only has one instance and provide a global access to it.
+Pitfalls (https://www.vojtechruzicka.com/singleton-pattern-pitfalls/):
+	1. Each concrete classes must implement the clone() operation when classes under consideration already exist.
+	2. According to the Single Responsibility Principle, each class should have just one responsibility - just one reason to change.Clearly, Singleton pattern is violating this principle. Instead of clear separation of concerns, the class has two distinct responsibilities - the first is making sure that only one instance can be created. The second is core functionality of the class - accessing DB, managing some unique resource or whatever is it supposed to do.
+	3. Makes unit testing very hard. When unit testing, you want the class to be as loosely coupled with other classes as possible and all the dependencies of the class should be ideally provided externally (either by constructor or setters), so they can be easily mocked.
+	4. Singleton is supposed to have no more than one instance. However the classical implementation does not ensure that there is just one instance per JVM, it only ensures that there is one instance per classloader.
+	5. Prone to reflection attack.
+	

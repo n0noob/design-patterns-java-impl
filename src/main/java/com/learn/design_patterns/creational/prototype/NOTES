@@ -1,0 +1,5 @@
+Use Cases:
+	1. Used when an object creation is expensive. This design pattern makes use of clone method.
+	2. It is used to remove a bunch of boilerplate code, when the configuration required would be onerous.
+Pitfalls:
+	1. Each concrete classes must implement the clone() operation when classes under consideration already exist.

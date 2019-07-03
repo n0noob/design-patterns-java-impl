@@ -1,0 +1,7 @@
+Use Cases:
+	1. The Builder Design Pattern helps us to slice the operations of building an object. It focuses on constructing a complex object step by step. It also enforces a process to create an object as a finished product. That means an object has to be massaged by some instructed steps before it is ready and can be used by others.
+	2. Used when object creation is very complex and require a lot of parameters.
+	3. Final Object is immutable.
+Pitfalls:
+	1. Complex code thus introduced after Builder pattern increases complexity.
+	2. Not much usefull if you want final object to be mutable.

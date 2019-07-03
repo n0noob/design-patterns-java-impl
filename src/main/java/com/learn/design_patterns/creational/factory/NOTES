@@ -1,0 +1,7 @@
+Use cases:
+	1. Client doesn't know what concrete classes it will be required to create at runtime, but just wants to get a class that will do the job.
+	2. When the initialization process is relatively simple, and the constructor only requires a handful of parameters.
+
+Pitfalls:
+	1. Can only be used when number of parameters used for creation are less.
+
