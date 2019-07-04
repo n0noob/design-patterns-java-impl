@@ -1,0 +1,4 @@
+Use Cases:
+	1. Facade means face of the building which is visible from the street.
+	2. Simply put, a facade encapsulates a complex subsystem behind a simple interface. It hides much of the complexity and makes the subsystem easy to use.
+	3. It decouples a client implementation from the complex subsystem. Thanks to this, we can make changes to the existing subsystem and don’t affect a client.

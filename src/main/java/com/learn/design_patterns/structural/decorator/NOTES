@@ -1,0 +1,5 @@
+Use Cases:
+	1. A Decorator pattern can be used to attach additional responsibilities to an object dynamically. A Decorator provides an enhanced interface to the original object.
+	2. Used when Extending functionality by sub-classing is no longer practical.
+	3. Used when you want to transparently and dynamically add responsibilities to objects without affecting other objects.
+	

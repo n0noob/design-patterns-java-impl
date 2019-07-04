@@ -1,0 +1,3 @@
+Use Cases:
+	1. Compose objects into tree structure to represent part-whole hierarchies. Composite lets client treat individual objects and compositions of objects uniformly
+	2. Allowing clients to operate on hierarchy of objects.
