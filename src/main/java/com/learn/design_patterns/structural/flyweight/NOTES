@@ -1,0 +1,10 @@
+Use Cases:
+	1. When we need a large number of similar objects that are unique in terms of only a few parameters and most of the stuffs are common in general.
+	2. We need to control the memory consumption by large number of objects – by creating fewer objects and sharing them across.
+
+Additional notes :
+A flyweight objects essentially has two kind of attributes – intrinsic and extrinsic.
+
+* An intrinsic state attribute is stored/shared in the flyweight object, and it is independent of flyweight’s context. As the best practice, we should make intrinsic states immutable.
+
+* An extrinsic state varies with flyweight’s context, which is why they cannot be shared. Client objects maintain the extrinsic state, and they need to pass this to a flyweight object during object creation.
