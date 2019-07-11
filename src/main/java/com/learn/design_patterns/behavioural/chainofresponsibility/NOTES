@@ -1,0 +1,4 @@
+NOTES:
+	1. Wikipedia defines Chain of Responsibility as a design pattern consisting of “a source of command objects and a series of processing objects”.
+
+	2. Each processing object in the chain is responsible for a certain type of command, and the processing is done, it forwards the command to the next processor in the chain.
