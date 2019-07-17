@@ -1,0 +1,3 @@
+NOTES :
+	1. A state allows an object to alter its behavior when its internal state changes.
+	2. There shall be a separate concrete class per possible state of an object. Each concrete state object will have logic to accept or reject a state transition request based on it’s present state and context information passed to it as method arguments.

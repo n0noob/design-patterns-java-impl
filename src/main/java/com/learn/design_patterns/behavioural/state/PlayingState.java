@@ -7,4 +7,14 @@ public class PlayingState implements PlayerState {
 		System.out.println("PLAYING : " + file);
 	}
 
+	/*@Override
+	public boolean equals(Object obj) {
+		if(obj == this)
+			return true;
+		
+		if(obj == null || !obj.getClass().equals(getClass()))
+			return false;
+		return true;
+	}*/
+	
 }
