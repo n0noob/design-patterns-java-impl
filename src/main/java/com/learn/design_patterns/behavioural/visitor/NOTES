@@ -1,0 +1,8 @@
+NOTES : 
+	1. We have to add a function which accepts the visitor class to each element of the structure.
+
+	2. That way our components will allow the visitor implementation to “visit” them and perform any required action on that element.
+
+	3. In other words, we’ll extract the algorithm which will be applied to the object structure from the classes.
+
+	4. Consequently, we’ll make good use of the Open/Closed principle as we won’t modify the code, but we’ll still be able to extend the functionality by providing a new Visitor implementation.
