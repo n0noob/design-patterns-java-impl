@@ -20,7 +20,7 @@ public final class Singleton {
 				 * 		others will again try creating their own instance without this second check
 				 */
 				if(instance == null)
-					return new Resource();
+					instance = new Resource();
 			}
 		}
 
