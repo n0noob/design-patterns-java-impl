@@ -1,4 +1,6 @@
 # design-patterns-java-impl
+[![Java CI with Gradle](https://github.com/n0noob/design-patterns-java-impl/actions/workflows/gradle.yml/badge.svg)](https://github.com/n0noob/design-patterns-java-impl/actions/workflows/gradle.yml)
+
 In software engineering, design patterns are patterns to most commonly ocurring problems in software design. In boader sense, design patterns can be divided into three catagories: creational, structural, behavioral. 
 This repository contains example implementation of following design patterns in java:
 ### Creational design patterns
